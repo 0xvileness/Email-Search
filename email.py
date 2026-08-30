@@ -21,21 +21,21 @@ init(autoreset=True)
 # ========== BANNER ==========
 def show_banner():
     banner = f"""
-{Fore.RED}╔══════════════════════════════════════════════════════════╗{Style.RESET_ALL}
-{Fore.RED}║{Fore.RED}▓█████  ███▄ ▄███▓ ▄▄▄       ██▓ ██▓  {Fore.RED}║{Style.RESET_ALL} 
-{Fore.RED}║{Fore.RED}▓█   ▀ ▓██▒▀█▀ ██▒▒████▄    ▓██▒▓██▒  {Fore.RED}║{Style.RESET_ALL}
-{Fore.RED}║{Fore.RED}▒███   ▓██    ▓██░▒██  ▀█▄  ▒██▒▒██░  {Fore.RED}║{Style.RESET_ALL}
-{Fore.RED}║{Fore.RED}▒▓█  ▄ ▒██    ▒██ ░██▄▄▄▄██ ░██░▒██░  {Fore.RED}║{Style.RESET_ALL} 
+{Fore.RED}╔════════════════════════════════════════════════════════════╗{Style.RESET_ALL}
+{Fore.RED}║{Fore.RED}▓█████  ███▄ ▄███▓ ▄▄▄       ██▓ ██▓    {Fore.RED}║{Style.RESET_ALL} 
+{Fore.RED}║{Fore.RED}▓█   ▀ ▓██▒▀█▀ ██▒▒████▄    ▓██▒▓██▒    {Fore.RED}║{Style.RESET_ALL}
+{Fore.RED}║{Fore.RED}▒███   ▓██    ▓██░▒██  ▀█▄  ▒██▒▒██░    {Fore.RED}║{Style.RESET_ALL}
+{Fore.RED}║{Fore.RED}▒▓█  ▄ ▒██    ▒██ ░██▄▄▄▄██ ░██░▒██░    {Fore.RED}║{Style.RESET_ALL} 
 {Fore.RED}║{Fore.RED}░▒████▒▒██▒   ░██▒ ▓█   ▓██▒░██░░██████▒{Fore.RED}║{Style.RESET_ALL}
 {Fore.RED}║{Fore.RED}░░ ▒░ ░░ ▒░   ░  ░ ▒▒   ▓▒█░░▓  ░ ▒░▓  ░{Fore.RED}║{Style.RESET_ALL}
 {Fore.RED}║{Fore.RED} ░ ░  ░░  ░      ░  ▒   ▒▒ ░ ▒ ░░ ░ ▒  ░{Fore.RED}║{Style.RESET_ALL}
 {Fore.RED}║{Fore.RED}   ░   ░      ░     ░   ▒    ▒ ░  ░ ░   {Fore.RED}║{Style.RESET_ALL}
 {Fore.RED}║{Fore.RED}  ░  ░       ░         ░  ░ ░      ░  ░ {Fore.RED}║{Style.RESET_ALL}
-{Fore.RED}║{Fore.RED}                                      {Fore.RED}║{Style.RESET_ALL}
-{Fore.RED}╠══════════════════════════════════════════════════════════╣{Style.RESET_ALL}
-{Fore.RED}║{Fore.RED}           Created By: 0xVileness     {Fore.RED}║{Style.RESET_ALL}
-{Fore.RED}║{Fore.RED}                 Email Search         {Fore.RED}║{Style.RESET_ALL}
-{Fore.RED}╚══════════════════════════════════════════════════════════╝{Style.RESET_ALL}
+{Fore.RED}║{Fore.RED}                                        {Fore.RED}║{Style.RESET_ALL}
+{Fore.RED}╠════════════════════════════════════════════════════════════╣{Style.RESET_ALL}
+{Fore.RED}║{Fore.RED}           Created By: 0xVileness       {Fore.RED}║{Style.RESET_ALL}
+{Fore.RED}║{Fore.RED}                 Email Search           {Fore.RED}║{Style.RESET_ALL}
+{Fore.RED}╚════════════════════════════════════════════════════════════╝{Style.RESET_ALL}
 """
     print(banner)
 
