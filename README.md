@@ -14,4 +14,5 @@ pip install holehe
 Steps: 
 
 cd Email-Search
+
 python3 email.py {email}
